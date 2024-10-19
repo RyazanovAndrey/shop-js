@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="container">
+            <div class="wrapper">
+                <img src="img/logo.png" alt="">
+                <input type="text" placeholder="Шукати..." class="input-field">
+                <i class='bx bx-cart-alt'></i>
+            </div>
+        </div>
+    </header>
+
+    <section class="sort-nav">
+        <div class="container">
+            <div class="sort-wrapper">
+                <ul class="tabs">
+                    <li><a href="#" class="tab active" data-tab="all">Все</a></li>
+                    <li><a href="#" class="tab" data-tab="mavic">Mavic</a></li>
+                    <li><a href="#" class="tab" data-tab="mini">Mini</a></li>
+                    <li><a href="#" class="tab" data-tab="air">Air</a></li>
+                    <li><a href="#" class="tab" data-tab="inspire">Inspire</a></li>
+                </ul>
+                <ul class="sort-list">
+                    <li class="sort-menu">
+                        <a href="#" class="sort-item">Сортировать по цене</a>
+                        <ul class="drop-sort">
+                            <li><a href="#" class="drop-link" data-sort="asc">Сортировать по возрастанию</a></li>
+                            <li><a href="#" class="drop-link" data-sort="desc">Сортировать по убыванию</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <div class="products">
+        <div class="container">
+            <div class="product-wrapper">
+
+            </div>
+        </div>
+    </div>
+
+    <div class="show-more-wrapper">
+        <button class="show-more">Показать еще</button>
+    </div>
+
+    <a href="#" class="btn-up">
+        <i class='bx bxs-up-arrow-circle'></i>
+    </a>
+
+    <div class="cart">
+        <div class="overlay close-up"></div>
+        <div class="cart-box">
+            <div class="cart-line">
+                <h3 class="cart-title">Ваше замовлення</h3>
+                <button class="close-cart close-up">&times;</button>
+            </div>
+            <div class="empty-cart">
+                <p>Ваш кошик порожній</p>
+                <img src="img/empty-cart.png" alt="">
+            </div>
+            <div class="cart-list-wrapper">
+            </div>
+            <div class="order-total">
+                <div class="sum-total">
+                    <p>Разом:</p>
+                    <div class="sum">
+                        <p class="sum-count">0</p>
+                        <p>₴</p>
+                    </div>
+                </div>
+                <button class="confirm">Оформити замовлення</button>
+            </div>
+        </div>
+    </div>
+
+<script src="js/main.js" type="module"></script>
+</body>
+</html>
