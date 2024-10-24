@@ -60,8 +60,10 @@ function addToCart() {
             if(countTarget.textContent <= 2) {
                 countTarget.textContent = --countTarget.textContent
                 minusBtn.setAttribute('disabled', true)
+                countTotal()
             }else {
                 countTarget.textContent = --countTarget.textContent
+                countTotal()
             }
         }
     })
